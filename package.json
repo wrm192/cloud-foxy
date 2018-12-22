@@ -1,0 +1,21 @@
+{
+  "name": "cloud-foxy",
+  "version": "0.0.2-rc.2",
+  "author": "Jonathan Seed <jonathan.j.seed@gmail.com>",
+  "license": "MIT",
+  "main": "src/cli.js",
+  "scripts": {
+    "start": "node src/cli.js"
+  },
+  "bin": {
+    "cloud-foxy": "src/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSeed/cloud-foxy.git"
+  },
+  "dependencies": {
+    "inquirer": "^6.2.1",
+    "inquirer-autocomplete-prompt": "^1.0.1"
+  }
+}
